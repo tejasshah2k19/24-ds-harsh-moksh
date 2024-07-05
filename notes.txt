@@ -1,0 +1,57 @@
+                    DS 
+
+Linear                            NonLinear 
+array                               tree
+statck                              graph 
+queue 
+linked list 
+
+
+searching ->
+        linear search 
+        binary search 
+
+sorting ->
+    bubble sort 
+    selection sort 
+    insertion sort 
+    merge sort 
+    **quick 
+-------------------------------------------------------------------------------------------------
+
+
+array ->  index 
+            0 - size-1 
+
+------------------------------------------------------------------------------
+STACK -> 
+
+last in first out -> LiFo -> stack 
+
+
+ticket -> X Y Z
+
+
+stack of book 
+ctrl+z 
+whatsapp 
+photoGallery 
+history 
+
+
+checkout -> 500qty -> 500 order -> payment -> 
+
+stack -> LiFo 
+
+add : PUSH  
+display :DISPLAY 
+remove : POP 
+
+
+---------------------------------------------------------------------------
+String reverse: using stack : LiFo 
+
+Enter string 
+royal
+layor 
+---------------------------------------------------------------------------
