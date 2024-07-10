@@ -55,3 +55,14 @@ Enter string
 royal
 layor 
 ---------------------------------------------------------------------------
+STACK : LiFo -> Last In First Out 
+
+QUEUE : FiFo -> First In First Out 
+
+ticket book 
+typing -> 
+
+process execution queue -> 
+
+printer -> print 
+
