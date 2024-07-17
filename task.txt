@@ -1,0 +1,55 @@
+	masterDeck [ 10 5 25 22 63 63 22 9 ] 
+
+
+PlayerA				PlayerB 
+10 25 63 22			5 22 63 9 
+
+
+
+
+PlayerA				PlayerB 
+25 63 22			22 63 9 
+
+
+Battle -> 10,5 --> player A is winner 
+
+PlayerA				PlayerB 
+25 63 22 10 5			22 63 9 
+
+
+
+
+
+
+PlayerA				PlayerB 
+63 22 10 5			63 9 
+Battle -> 25,22
+Player A is Winner 
+PlayerA				PlayerB 
+63 22 10 5 25 22		63 9 
+
+
+
+ 
+PlayerA				PlayerB 
+22 10 5 25 22			9 
+Battle -> 63 63 Tie 
+
+
+
+PlayerA				PlayerB 
+  10 5 25 22			  
+Battle->63 63 22 9
+A is Battle Winner 
+
+
+PlayerA				PlayerB 
+  10 5 25 22 63 63 22  9			  
+
+
+Battle -> A is Game Winner 
+
+
+
+max : battle : 50 
+------------------------------------------------------
