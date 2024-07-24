@@ -66,3 +66,20 @@ process execution queue ->
 
 printer -> print 
 
+--------------------------------------------------------------------------
+
+array 
+function 
+structure 
+recursion
+DMA
+
+
+multivalue -> array 
+
+
+name:char[30]
+fees:int 
+batch:char[10]
+year:int 
+
