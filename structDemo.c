@@ -2,7 +2,7 @@
 
 struct student
 {
-    char name[30];
+    char name[30];//s
     char batch[10];
     int fees;
     int year;
