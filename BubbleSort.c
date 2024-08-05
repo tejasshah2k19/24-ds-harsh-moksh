@@ -1,5 +1,5 @@
 #include <stdio.h>
-#define SIZE 5
+// #define SIZE 5
 
 void display(int a[])
 {
@@ -26,15 +26,15 @@ void bubbleSort(int a[])
         }
     }
 }
-int main()
-{
+// int main()
+// {
 
-    int a[] = {10, 25, 30, 44, 6};
+//     int a[] = {10, 25, 30, 44, 6};
 
-    printf("\nArray Before Sorting : ");
-    display(a);
-    bubbleSort(a);
-    printf("\nArray After Sorting : ");
-    display(a);
-    return 0;
-}
+//     printf("\nArray Before Sorting : ");
+//     display(a);
+//     bubbleSort(a);
+//     printf("\nArray After Sorting : ");
+//     display(a);
+//     return 0;
+// }
