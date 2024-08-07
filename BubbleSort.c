@@ -13,7 +13,7 @@ void display(int a[])
 void bubbleSort(int a[])
 {
     int i, j, tmp;
-    for (i = 0; i < SIZE; i++)
+    for (i = 0; i < SIZE-1; i++)
     {
         for (j = 0; j < SIZE - 1; j++)
         {

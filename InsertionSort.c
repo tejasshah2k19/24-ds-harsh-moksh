@@ -10,24 +10,27 @@ void display(int a[])
     }
 }
 
-void selectionSort(int a[])
+void insertionSort(int a[])
 {
-    int i, j, tmp, min;
+    int i, j;
+    int tmp;
 
-    for (i = 0; i < SIZE; i++)
+    for (i = 1; i < SIZE; i++)
     {
-        min = i;
-        for (j = i + 1; j < SIZE; j++)
+        tmp = a[i];
+        for (j = i - 1; j >= 0; j--)
         {
-            if (a[min] > a[j])
+            if (a[j] > tmp)
             {
-                min = j;
+                a[j + 1] = a[j];
+            }
+            else
+            {
+                break;
             }
         }
-     
-        tmp = a[i];
-        a[i] = a[min];
-        a[min] = tmp;
+        //
+        a[j + 1] = tmp;
     }
 }
 int main()
@@ -37,7 +40,7 @@ int main()
 
     printf("\nArray Before Sorting : ");
     display(a);
-    selectionSort(a);
+    insertionSort(a);
     printf("\nArray After Sorting : ");
     display(a);
     return 0;
