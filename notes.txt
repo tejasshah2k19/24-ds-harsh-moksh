@@ -134,7 +134,18 @@ mid = (min+max)/2  //4
      min = mid + 1 
 
 
+------------------------------------------------
 
+recursion -> function calling itself 
+             self calling .
+it always required BASE condition / BASE CASE 
+    BASE CASE -> is the termination for the recursion 
+
+    we can not use break statement in recursion to terminate the calling 
+    *break will only use when we have switch/loop 
+
+
+-----------------------------------------------
 
 
 
