@@ -145,9 +145,277 @@ it always required BASE condition / BASE CASE
     *break will only use when we have switch/loop 
 
 
------------------------------------------------
+--------------------------------------------------------------------
+    MERGE Sort 
 
 
+1)       
+        a = [10,20,30,40,50]
+                          i
+        b = [5,15,25,35,45]
+                            j
+        c=[5,10,15,20,25,30,35,40,45,50] merge a and b into c 
+                                       k 
+
+
+
+--------------------------------------------------------------------
+
+
+quick sort 
+
+10  80  30  90  40  50  70
+
+               
+small  -> left 
+big    -> right 
+
+10  80  30  90  40  50  70
+
+
+left small 
+right big 
+
+                        pivot 
+10  50  30  40  70  80  90
+             
+
+                        pivot  
+10  50  30  40  70  80  90
+                i 
+                j
+
+
+--------------------------------------------------------------
+
+23 45 67 89 9 87 65 43
+
+           
+                    pivot 
+23 9 67 89 45 87 65 43
+     i
+     j 
+-------------------------------------------------------------
+
+bubble  -> swap 
+
+selection -> less swap 
+
+insertion -> iteration 
+
+merge -> 
+
+quick -> less 
+
+radix ->
+
+
+10  30  20  
+logic -> sort -> 
+10 20   30 
+
+--------------------------------------------------------------
+
+
+
+
+stack -> 
+
+    conversion => 
+
+    infix to prefix 
+    infix to postfix
+
+
+    infix   a+b 
+    prefix  +ab 
+    postfix ab+
+
+
+    infix -> prefix
+    infix -> postfix
+
+    a+b -> +ab 
+    a*b -> ab* 
+
+    a+b*c 
+    5+2*9+19 -> prefix -> stack push
+    
+
+    a+b*c -> prefix -> stack -> ans 
+
+
+
+a+b*c/d  => c/d => wrong 
+b*c 
+
+()     left to right 
+^ ~ $  right to left 
+/ *    left to right 
++ -    left to right 
+
+
+a*b/c -> a*b {left to right}
+a$b~c -> b~c {right to left}
+
+
+infix -> prefix 
+
+a+b*c-d 
+
+a +  *bc  - d
+
++a*bc - d 
+
+-+a*bcd 
+----------------------------------------------------------
+
+
+87,65,43,24,56,78,98,76,54,34
+
+
+87,65,43,24,56,78,98,76,54,34
+
+
+
+
+23,45,67,89,87,65,43,34,56,78,9,21
+
+-----------------------------------------------------------
+
+int main(){
+    int a;//4 byte 
+
+    //5 minute 
+
+
+
+}
+//end 
+
+
+server -> 100000 * 4 => 4,00,000 byte 
+
+single user -> 
+multi user -> 
+
+
+2 gb -> 100 user -> 150
+4 gb -> 
+8 gb -> 
+
+autoscaling --> 
+
+
+DMA -> 
+
+---------------------------------------------------------------------
+memory allocate -> 
+    calloc 
+    malloc 
+    
+release memory ->
+    free 
+
+existing allcoated -> resize --->
+    realloc 
+
+
+which header file -> stdlib.h 
+
+----------------------------------------------------------------------
+    calloc +  { n number ,  multiple block }
+    malloc +  { single block with n size }
+    free   - 
+
+    int a;//4 byte 
+    int a[5]; //4 byte * 5 => 20byte 
+
+
+
+    int a -> malloc 
+    int a[] -> calloc 
+
+
+    float fp; //malloc
+    char c; //malloc
+    int *p; //malloc
+    struct student s; //malloc  
+    struct student s[5];//calloc 
+
+
+    calloc -> memory in continue 
+    malloc -> memory in random [ available order ]
+-------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
 
 
 
