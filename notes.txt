@@ -350,6 +350,71 @@ which header file -> stdlib.h
 
 
 
+single block -> malloc 
+multiple block -> calloc 
+
+free 
+realloc 
+
+
+--------------------------------------------------------------------
+int a; //1 value of integer 
+
+int a[5]; // 5 value of integer 
+    array is a collection of same type of data type 
+
+struct student; // n value , mix data type 
+    is a collection of mixture type of data 
+
+---------------------------------------------------------------------
+
+royal ->    student-> studentId , firstName,lastName,batch,year,fees, 
+
+product -> productId , price , discount , author , 
+
+
+
+struct student{
+    int studentId;
+    char studentName[20];
+    char batch[20];
+    int fees ;
+};
+
+
+struct student jay;[48]    {studentId,studentName,batch,fees}
+struct student parth;[48]  {studentId,studentName,batch,fees}
+struct student jeet;[48]   {studentId,studentName,batch,fees}
+struct student harsh;[48]  {studentId,studentName,batch,fees}
+
+
+q: how to access studentId ? singel data item? 
+ans : to access the data using ref we need to use dot  . operator 
+
+jay.studentId 
+parth.studentName 
+
+q: how to access studentId if struct ref is a pointer type ? singel data item? 
+ans : arrow operator -> 
+
+
+-----------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

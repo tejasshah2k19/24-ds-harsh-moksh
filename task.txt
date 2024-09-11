@@ -69,3 +69,92 @@ max : battle : 50
   key:23  : found 
 
 ----------------------------------------------------------------------
+
+
+10  20  30  40  50  
+
+
+write an algo for reverse a string ! 
+
+royal -> layor 
+
+for(i=len-1;i>=0;i--){
+  pf(str[i]);
+}
+
+
+
+
+assign 
+  i <- 10  {assignment }
+
+compare 
+i = 10 {compare}
+
+scanf ->
+  read(a) 
+  read a 
+
+printf 
+  print A
+  write(a)
+  
+increment 
+  i <- i + 1 
+
+condition 
+  if(a > b ) then 
+
+  else 
+
+  if a > b and a > c 
+    hi 
+  else 
+    hello 
+
+loop 
+
+  step 1:
+      i <- 1 
+
+  step 2:
+    repeat stpe 3 unitl i < 10 
+
+  step 3:
+    write(i)
+    i<- i+1 
+
+loop v2 
+
+  step 1:
+    i <- 1 
+
+  step 2: 
+    repeat while i < 10 
+        write(i)
+        i <- i+1 
+
+----------------------------------------------------------------------
+
+1) write an algo that print your name 3 times 
+2) write an algo that print an array of 5 numbers 
+ 
+
+----------------------------------------------------------------------
+
+linked list 
+
+data | next
+
+
+
+
+
+
+
+
+
+
+
+
+
