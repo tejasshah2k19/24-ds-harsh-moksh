@@ -1,0 +1,204 @@
+insert last : 
+
+
+5	10	20	30	40	50	60	
+	first                          save  
+
+
+
+step 1 : 
+	if avial = null then 
+		Write "Availability Stack is Empty"
+	else 
+		new_node = avail
+step 2: 	
+	new_node->info = num  
+	new_node->link = NULL 
+
+
+step3: 	save = first 
+	repeat while save->link != null
+			save=save->link 
+	save->link = new_node 
+ 
+step 4: exit 
+
+
+insert beg : 
+
+step 1 : 
+	if avial = null then 
+		Write "Availability Stack is Empty"
+	else 
+		new_node = avail
+
+step 2: 	
+	new_node->info = num  
+	new_node->link = first 
+	first = new_node 
+
+step 3:
+	exit 
+
+
+
+insert any : 
+						first
+	10	20	30	40	50	60	70	80	
+					            90
+	key=60
+
+
+
+step 1 : 
+	if avail = null then 
+		Write "Availability Stack is Empty"
+	else 
+		new_node = avail
+		avail = avail->link 
+
+step 2: 
+
+		if first = NULL then
+			new_node -> info = x 
+			new_node->link = NULL 
+			first = new_node 
+
+step3: 		else 
+			save = first
+
+			repeat while save != NULL and save->info != key
+					save= save->link	
+
+			if save = NULL then 
+				write "invalid key" 
+			else 
+				new_node->info = X 
+				new_node->link = save->link 
+				save->link = new_node
+
+ 
+step4: exit 			 
+			
+	
+-------------------------------------------------------------------------------------------------------------------------------
+
+
+del  beg : 
+
+
+
+step 1: 
+	if first = null then 
+		write "list is empty" 
+
+
+step 2:  
+	if first->link = NULL then
+		return first->info 
+		first = null 
+  
+ 	else
+		return first->info 
+		first = first->link 
+
+step 4: exit 
+
+
+
+del last :
+
+
+
+step1 : 
+	if first = null then
+		write "list is empty" 
+
+
+step2 : 
+	if first->link = null then 
+		return first->info
+		first = null 
+	else 
+		save = first 
+		repeat while save->link != null then 
+			save=save->link 
+		pred = save 
+		save = save->link 
+		pred->link = null 
+		return save->info
+step 3:
+	exit 
+
+	
+del any : 
+
+step1 : 
+	if first = null then
+		write "list is empty" 
+
+step2 : 
+	if first->link = null and first->info = key then 
+		return first->info
+		first = null 
+	else 
+		pred = first 
+		
+		repeat while pred!=null and pred->link->info != key
+				pred=pred->link
+
+		if pred = null then 
+			write "invalid key" 
+		else 
+			save = pred->link 
+			pred->link = save->link 
+			return save->info 
+
+step 3: 
+		exit 
+
+
+--------------------------------------------------------------------------------------------------
+
+
+search and count 
+
+
+
+
+  
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	 
