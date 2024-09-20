@@ -163,11 +163,81 @@ step 3:
 
 search and count 
 
+-------------------------------------------------------------------------------------
+
+malloc -> memory? 
+
+algo -> avail 
 
 
-
+tmp = avail
+avail = avail->link  
   
 		
+if avail = null then 
+
+else 
+	new_node = avail 
+	avail = avail->link 
+
+-----------------------------------------------------
+
+10	20	30	40	50	60	70	80	90	
+
+step 1:  [ initilize ]
+		 i <- 0
+		 flag <- 0  
+
+step 2 :  repeat while i<N 
+			if ARRAY[i] = key then 
+				flag <- 1
+				write "success"
+				write "found at i+1 location" 
+			i <- i+1
+
+step 3:  if flag = 0 then 
+			write "not found" 
+
+step 4: exit 
+
+----------------------------------------------------------
+
+binary search -> 
+	1) prior condition -> array must be sorte 
+	
+you have to assume your array is sorted 
+
+0	1	2	3	4	5	6	7	8	9		
+10	20	30	40	50	60	70	80	90	100 
+low 		high
+				mid 
+
+key = 30
+
+step 1: 
+	initilize 
+	low <- 0 
+	high <- N-1 
+	flag <- 0 
+
+step 2:
+	repeat while low <= high 
+	mid <- (low + high)/2 
+	if A[mid] = key then 
+		flag <- 1 
+		write "success" 
+	else if A[mid] > key then 
+		high <- mid - 1 
+	else 
+		low <- mid + 1 
+
+step 3: 
+	if flag = 0 then 
+		write "not found" 
+
+step 4: exit 
+
+------------------------------------------------------------------------
 
 
 
