@@ -400,8 +400,44 @@ ans : arrow operator ->
 
 -----------------------------------------------------------------------
 
+36, 84, 52, 15, 87, 86, 545
 
 
+find the max , count the digit of max num 
+
+
+
+//
+num = 7 
+
+
+happy(int num){ //4 
+
+nextNum =0; //
+
+while(1){
+   totalDigit  = count(num);//16 
+
+   if(totalDigit  == 1){
+     nextNum = num*num;//16 
+
+   }else{//8  
+        while(num>0){
+            rem = num % 10 ; //0 
+            nextNum = nextNum+(rem*rem)//37
+            num = num / 10 ;//
+        }
+   }
+
+   if(nextNum == 1){
+        printf("HAPPY HAPPY);
+   }else{
+     happy(nextNum);//16
+   }
+
+}
+}
+---------------------------------------------------------------
 
 
 
